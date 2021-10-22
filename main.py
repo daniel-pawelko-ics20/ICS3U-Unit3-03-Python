@@ -6,6 +6,7 @@
 
 from random import randint
 
+
 def main():
     # This function inputs guess and outputs if correct or not
 
