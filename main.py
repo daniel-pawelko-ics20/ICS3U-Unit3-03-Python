@@ -4,14 +4,11 @@
 # Created on: Oct 2021
 # This is a guessing game
 
-from random import randint
+from constants import NUM
 
 
 def main():
     # This function inputs guess and outputs if correct or not
-
-    # store const
-    NUM = randint(0, 9)
 
     # input
     guess = int(input("Enter guess(0-9): "))
